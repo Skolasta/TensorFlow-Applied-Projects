@@ -1,0 +1,32 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python compiled
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large Model weights and Databases (Exceeds GitHub 100MB Limit)
+# You should use Git LFS (Large File Storage) for these, or host them on Google Drive/HuggingFace and provide a download link.
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+
+# Vector Databases
+chroma_db/
+
+# Virtual folders and OS files
+.DS_Store
+Thumbs.db

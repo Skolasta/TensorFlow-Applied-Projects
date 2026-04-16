@@ -1,0 +1,5 @@
+jupyter
+streamlit
+tensorflow
+transformers
+numpy
